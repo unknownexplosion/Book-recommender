@@ -1,3 +1,7 @@
+
+<img width="1470" height="919" alt="Screenshot 2025-08-13 at 11 00 02 PM" src="https://github.com/user-attachments/assets/e77aa7b7-7fcb-49f3-b25b-429e6dc7adea" />
+
+
 # Book Recommender System
 
 An intelligent book recommendation system that uses semantic search and emotion analysis to help users discover their next great read. The system combines vector embeddings, sentiment analysis, and an intuitive web interface to provide personalized book recommendations.
@@ -10,7 +14,6 @@ An intelligent book recommendation system that uses semantic search and emotion 
 - **Interactive Dashboard**: Beautiful Gradio-based web interface with dark theme
 - **Real-time Recommendations**: Get instant book suggestions based on your preferences
 - **Rich Book Information**: Displays book covers, descriptions, ratings, and metadata
-
 
 ## 🏗️ Project Structure
 
@@ -37,6 +40,19 @@ book-recommender/
 ### Prerequisites
 - Python 3.8+
 - Google AI API key (for Gemini embeddings)
+- kagglehub
+- pandas
+- matplotlib
+- seaborn
+- python-dotenv
+- langchain-community
+- langchain-opencv
+- langchain-chroma
+- transformers
+- gradio
+- notebook
+- ipywidgets
+
 
 ### Setup
 
@@ -184,8 +200,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Embeddings**: Google Gemini AI for semantic understanding
 - **UI Framework**: Gradio for rapid prototyping
 - **Vector Database**: ChromaDB for efficient similarity search
-
-## 📞 Contact
-
-For questions, suggestions, or collaboration opportunities, please open an issue or reach out through the repository.
 
